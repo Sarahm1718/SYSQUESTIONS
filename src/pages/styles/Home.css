@@ -1,0 +1,35 @@
+.Home {
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    background: url("../../images/stars.svg"), #bbbbbb;
+    background-repeat: repeat;
+  
+    color: #ffffff;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .Home__col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .Home__col {
+      align-items: flex-start;
+    }
+  }
+
+  .Navbar__brand-logo{
+    height: 60px;
+    width: 60px;
+  }
+
+h1{
+  font-size: 100px;
+  color: red;
+  padding: 30px;
+}

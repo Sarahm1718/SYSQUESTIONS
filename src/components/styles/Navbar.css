@@ -1,0 +1,33 @@
+.Navbar {
+    width: 100%;
+
+    padding: 0.5rem 0;
+    background-color: #bbb;
+  }
+  
+  .Navbar__brand {
+    color: #ffffff;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .Navbar__brand:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .Navbar__brand-logo {
+    margin-right: 0.5rem;
+  }
+
+  .font-weight-light{
+    font-size: 20px;
+    color:red;
+    font-family:monospace;
+  }
+
+  .font-weight-bold{
+    font-size: 20px;
+    color:red;
+  }
